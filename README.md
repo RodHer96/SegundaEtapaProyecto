@@ -14,3 +14,13 @@ Adjuntamos imagenes de la creacion de un bucket y de la creación de la base de 
 El modelo de datos utilizado puede encontrarse en el folder de DiagramaDimensional
 
 Puede encontrarse las visualizaciones en el folder VisualizacionesPowerBI
+
+Las metricas contestadas en la visualizacion son:
+
+1- Cantidad de ventas por producto
+2- Cantidad de producto vendido por tienda
+3- Monto de venta por producto
+4- Monto vendido por tienda
+5- Ventas por categoría de producto
+6- Monto de venta por categoría de producto
+7- Top 5 de clientes que más han comprado en el negocio
