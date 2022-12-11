@@ -1,0 +1,7 @@
+create table public.ProductFeatureDimension(
+	FeatureKey integer not null,
+	ProductKey integer not null,
+	primary key(FeatureKey, ProductKey),
+	foreign key(FeatureKey) references public.FeatureDimension,
+	foreign key(ProductKey) references public.ProductDimension(ProductKey)
+)

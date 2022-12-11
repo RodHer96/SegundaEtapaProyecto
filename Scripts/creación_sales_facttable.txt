@@ -1,0 +1,17 @@
+create table public.SalesFactTable( 	SalesKey integer not null,	
+	CustomerKey integer not null,
+	ShopKey integer not null,
+	DateKey integer not null,
+	ProductKey integer not null,
+	ProductQuantity integer not null,
+	TotalPriceTaxIncluded decimal not null,
+	TotalPriceTaxExcl decimal not null,
+	TotalShippingPriceTaxIncl decimal not null,
+	TotalShippingPriceTaxExcl decimal not null,
+	OriginalProductPrice decimal not null,
+	OrderDate date not null,
+	primary key(SalesKey, CustomerKey, ShopKey, DateKey, ProductKey),
+	foreign key(CustomerKey) references public.CustomerDimension(CustomerKey),
+	foreign key(ShopKey) references public.ShopDimension(ShopKey),
+	foreign key(ProductKey) references public.ProductKey(ProductKey)
+) 

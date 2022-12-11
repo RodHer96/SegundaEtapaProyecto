@@ -1,0 +1,7 @@
+CREATE TABLE public.AttributeDimension(
+	AttributeKey integer not null,
+	AttributeID integer not null,
+	AttributeName varchar not null,
+	AttributeValue varchar not null,
+	primary key(AttributeKey)
+)

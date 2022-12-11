@@ -1,0 +1,20 @@
+create table public.CustomerDimension(
+	CustomerKey integer not null,
+	CustomerID integer not null,
+	FirstName varchar not null,
+	LastName varchar not null,
+	DateOfBirth date not null,
+	Gender integer not null,
+	Email varchar not null,
+	IsGuest integer not null,
+	DateAdd date not null,
+	DateUpd date not null,
+	CountryName varchar not null,
+	State varchar not null,
+	MainAddress varchar not null,
+	PostalCode varchar not null,
+	City varchar not null,
+	Phone varchar not null,
+	PhoneNumber varchar not null,
+	primary key(CustomerKey)
+)

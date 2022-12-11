@@ -1,0 +1,6 @@
+create table public.ShopDimension(
+	ShopKey integer not null,
+	ShopID integer not null,
+	ShopName varchar not null,
+	primary key(ShopKey)
+)

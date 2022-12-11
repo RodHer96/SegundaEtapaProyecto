@@ -1,0 +1,7 @@
+create table ProductAttributeDimension(
+	AttributeKey integer not null,
+	ProductKey integer not null,
+	primary key(AttributeKey, ProductKey),
+	foreign key(AttributeKey) references public.AttributeDimension(AttributeKey),
+	foreign key(ProductKey) references public.ProductDimension(ProductKey)
+)

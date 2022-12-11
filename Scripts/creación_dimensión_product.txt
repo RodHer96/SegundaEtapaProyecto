@@ -1,0 +1,22 @@
+create table public.ProductDimension(
+	ProductKey integer not null,
+	ProductID integer not null,
+	ProductName varchar not null,
+	ProductPrice decimal not null,
+	WholeSalePrice decimal not null,
+	Unity varchar not null,
+	UnityPriceRatio decimal not null,
+	Width decimal not null,
+	Height decimal not null,
+	Wight decimal not null,
+	AdditionalShippingCost decimal not null,
+	OnlineOnly integer not null,
+	Depth decimal not null,
+	DateAdd date not null,
+	DateUpd date not null,
+	CategoryName varchar not null,
+	BrandName varchar not null,
+	TaxApplied varchar not null,
+	Ratio decimal not null,
+	primary key(ProductKey)
+)

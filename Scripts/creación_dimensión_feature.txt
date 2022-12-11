@@ -1,0 +1,7 @@
+create table public.FeatureDimension(
+	FeatureKey integer not null,
+	FeatureID integer not null,
+	FeatureName varchar not null,
+	FeatureValueName varchar not null,
+    primary key(FeatureKey)
+)
